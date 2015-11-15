@@ -64,9 +64,15 @@ header, #header-background {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #nav {
-    text-align: right;
+    text-align: center;
     padding-top: 34px;
     height: 90px;
+}
+
+#nav-container {
+    float: right;
+    margin-left: auto!important;
+    margin-right: auto!important;
 }
 
 .navbar-list {
@@ -80,7 +86,8 @@ header, #header-background {
 .navbar-link {
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
     vertical-align: middle;
     font-weight: 400;
     font-size: 1em;
@@ -93,7 +100,7 @@ header, #header-background {
 
 #social {
     text-align: right;
-    padding-top: 35px;
+    padding-top: 36px;
     height: 90px;
 }
 
@@ -106,10 +113,11 @@ header, #header-background {
 }
 
 .socicon-facebook, .socicon-instagram, .socicon-pinterest {
-    text-transform: ;
     text-decoration: none;
     margin-left: 20px;
     vertical-align: middle;
+    font-size: 1em;
+    line-height: 0;
 }
 
 
