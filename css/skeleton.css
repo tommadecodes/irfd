@@ -111,9 +111,13 @@ header {
 /* Swiper
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+main {
+    margin-top: 90px;
+}
+
 .swiper-container {
             width: 100vw;
-            height: 100vh;
+            height: calc(100vh - 90px);
         }
         
 .swiper-button-prev, .swiper-button-next {
