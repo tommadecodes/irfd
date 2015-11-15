@@ -56,24 +56,49 @@ header {
 /* Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+#nav {
+    text-align: right;
+    padding-top: 33px;
+    height: 90px;
+}
+
 .navbar-list {
     list-style: none;
-    height: 90px;
-    margin-bottom: 0;
 }
 
 .navbar-item {
-    height: 90px;
-    float: left;
+    float: right;
 }
 
 .navbar-link {
-    text-transform: uppercase;
+    text-transform: ;
+    text-decoration: none;
     margin-right: 35px;
+    vertical-align: middle;
 }
 
-.navbar-link.active {
-    color: #33C3F0; 
+/* Social
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#social {
+    text-align: right;
+    padding-top: 33px;
+    height: 90px;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-item {
+    float: right;
+}
+
+.social-link {
+    text-transform: ;
+    text-decoration: none;
+    margin-right: 35px;
+    vertical-align: middle;
 }
 
 /* Grid
@@ -212,9 +237,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #fff; }
 a:hover {
-  color: #0FA0CE; }
+  color: #fff; opacity: 0.9; }
 
 
 /* Buttons
