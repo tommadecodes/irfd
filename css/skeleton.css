@@ -33,7 +33,7 @@
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-header {
+header, #header-background {
     display: block;
     position: fixed;
     top: 0;
@@ -41,8 +41,12 @@ header {
     width: 100%;
     height: 90px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    background-color: #040908;
     z-index: 100;
+}
+
+#header-background {
+    background-color: #101111;
+    opacity: 0.98;
 }
 
 #logo-wrapper {
@@ -74,12 +78,13 @@ header {
 }
 
 .navbar-link {
-    text-transform: ;
+    text-transform: uppercase;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 50px;
     vertical-align: middle;
     font-weight: 400;
     font-size: 1em;
+    letter-spacing: 0.03em;
     line-height: 0;
 }
 
@@ -100,7 +105,7 @@ header {
     display: inline-block;
 }
 
-.socicon-facebook, .socicon-twitter, .socicon-instagram {
+.socicon-facebook, .socicon-instagram, .socicon-pinterest {
     text-transform: ;
     text-decoration: none;
     margin-left: 20px;
@@ -112,20 +117,26 @@ header {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 main {
-    margin-top: 90px;
+    margin-top: 0px;
+}
+
+.swiper-button-container {
+    display: block;
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin-bottom: -44px;
+    z-index: 3;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 50px!important;
 }
 
 .swiper-container {
-            width: 100vw;
-            height: calc(100vh - 90px);
-        }
-        
-.swiper-button-prev, .swiper-button-next {
-    position: fixed;
-    top: -50%!important;
-    width: 50%!important;
-    height: 400%!important;
-    z-index: 3;
+    width: 100vw;
+    height: 120vh;
 }
 
 .swiper-slide {
@@ -256,7 +267,7 @@ body {
   font-weight: 400;
   font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff;
-  background-color: #040908; }
+  background-color: #101111; }
 
 
 /* Typography
