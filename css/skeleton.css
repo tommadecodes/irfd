@@ -11,6 +11,9 @@
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Header
+- Nav
+- Social
+- Swiper
 - Grid
 - Base Styles
 - Typography
@@ -53,12 +56,12 @@ header {
     opacity: 0.99;
 }
 
-/* Navbar
+/* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #nav {
     text-align: right;
-    padding-top: 33px;
+    padding-top: 34px;
     height: 90px;
 }
 
@@ -67,14 +70,17 @@ header {
 }
 
 .navbar-item {
-    float: right;
+    display: inline-block;
 }
 
 .navbar-link {
     text-transform: ;
     text-decoration: none;
-    margin-right: 35px;
+    margin-left: 30px;
     vertical-align: middle;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 0;
 }
 
 /* Social
@@ -82,7 +88,7 @@ header {
 
 #social {
     text-align: right;
-    padding-top: 33px;
+    padding-top: 35px;
     height: 90px;
 }
 
@@ -91,14 +97,57 @@ header {
 }
 
 .social-item {
-    float: right;
+    display: inline-block;
 }
 
-.social-link {
+.socicon-facebook, .socicon-twitter, .socicon-instagram {
     text-transform: ;
     text-decoration: none;
-    margin-right: 35px;
+    margin-left: 20px;
     vertical-align: middle;
+}
+
+
+/* Swiper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.swiper-container {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+.swiper-button-prev, .swiper-button-next {
+    position: fixed;
+    top: -50%!important;
+    width: 50%!important;
+    height: 400%!important;
+    z-index: 3;
+}
+
+.swiper-slide {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    z-index: 1;
+}
+
+#s-1 {
+    background: ;
+}
+
+#s-2 {
+    background: ;
+}
+
+#s-3 {
+    background: ;
 }
 
 /* Grid
@@ -208,7 +257,7 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 a {
   opacity: 0.99;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -239,7 +288,7 @@ p {
 a {
   color: #fff; }
 a:hover {
-  color: #fff; opacity: 0.9; }
+  color: aliceblue; }
 
 
 /* Buttons
