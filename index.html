@@ -39,6 +39,10 @@
     
     
 <body>
+    
+    
+  <!-- Header
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div id="header-background"></div>
     <header>
         <div class="container">
@@ -46,10 +50,10 @@
                 <div class="two columns" id="logo-wrapper"><a id="logo-botton" href="/"><img id="logo" src="images/logo-irfd.png"></a></div>
                 <div class="eight columns" id="nav">
                     <ul class="navbar-list" id="nav-container">
-                        <li class="navbar-item"><a class="navbar-link" href="#">Designs</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#designs">Designs</a></li>
                         <li class="navbar-item"><a class="navbar-link" href="#">Interiors</a></li>
                         <li class="navbar-item"><a class="navbar-link" href="#">Commissions</a></li>
-                        <li class="navbar-item"><a class="navbar-link" href="#">News</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#">About</a></li>
                         <li class="navbar-item"><a class="navbar-link" href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -71,7 +75,7 @@
         <div class="swiper-button-next swiper-button-white"></div>
         <div class="swiper-button-prev swiper-button-white"></div>
     </div>
-    <main id=swiper>
+    <div id=swiper>
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div id="s-1" style="background: url(images/fs-klasp.jpg)" class="swiper-slide"></div>
@@ -82,20 +86,38 @@
                 <div id="s-6" style="background: url(images/fs-weaver.jpg)" class="swiper-slide"></div>
             </div>
         </div>
-    </main>
-    
-    
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 34px">
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the end.</p>
-      </div>
     </div>
-  </div>
-
-  -->
+    
+    
+  <!-- Index
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="designs">
+        <div id="index-background">
+            <div class="container">
+                <div class="index-title-container"><a class="index-title" href="#designs">Designs</a></div>
+                <div class="row" id="index-row-1">
+                    <div class="one-half column" id="index-item-half-container">
+                        <a class="index-item-image" href="#"><img src="images/in-weaver.jpg"></a>
+                        <a class="index-item-title" href="#"><h4>Weaver Credenza</h4></a>
+                    </div>
+                    <div class="one-half column" id="index-item-half-container">
+                        <a class="index-item-image" href="#"><img src="images/in-klasp.jpg"></a>
+                        <a class="index-item-title" href="#"><h4>Klasp Daybed</h4></a>
+                    </div>
+                </div>
+                <div class="row" id="index-row-2">
+                    <div class="one-half column" id="index-item-half-container">
+                        <a class="index-item-image" href="#"><img src="images/in-twig.jpg"></a>
+                        <a class="index-item-title" href="#"><h4>Just Twigged Cabinet</h4></a>
+                    </div>
+                    <div class="one-half column" id="index-item-half-container">
+                        <a class="index-item-image" href="#"><img src="images/in-linnk.jpg"></a>
+                        <a class="index-item-title" href="#"><h4>Linnk Cabinet</h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     
   <!-- Footer
@@ -105,7 +127,7 @@
         <div class="container">
             <div class="row">
                 <div class="one-half column" id="cred-spacer"></div>
-                <div class="one-half column" id="cred-wrapper">
+                <div class="one-half column" id="cred-container">
                     <a class="cred-button" href="/"><img id="cred-fsc" src="images/cred-fsc.png"></a>
                     <a class="cred-button" href="/"><img id="cred-nz" src="images/cred-nz.png"></a>
                 </div>
@@ -127,8 +149,28 @@
         loop: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        keyboardControl: true
+        keyboardControl: true,
+        autoplay: 5000
         })        
     </script>
+    
+    
+    <!-- Smooth Scroll Script
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+
+            var target = $( $(this).attr('href') );
+
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+
+        });
+    </script>
+    
 </body>
 </html>
