@@ -14,6 +14,7 @@
 - Nav
 - Social
 - Swiper
+- Footer
 - Grid
 - Base Styles
 - Typography
@@ -160,6 +161,46 @@ main {
     background-repeat: no-repeat!important;
     z-index: 1;
 }
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+footer, #footer-background {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    z-index: 100;
+}
+
+/*
+#footer-background {
+    background-color: #101111;
+    opacity: 0.98;
+}
+*/
+
+#cred-wrapper, .cred-button {
+    height: 90px;
+    float: right;
+}
+
+.cred-button {
+    margin-left: 5px;
+}
+
+#cred-fsc, #cred-nz {
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.99;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
