@@ -187,7 +187,7 @@ header, #header-background {
 }
 
 #intro-row {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 #details-row {
@@ -489,7 +489,7 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6, a, p {
+h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
   margin-top: 0;
   margin-bottom: 2rem;
