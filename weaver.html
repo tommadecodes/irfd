@@ -25,6 +25,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -71,50 +73,45 @@
     </header>
     
     
-  <!-- Headline Feature
+  <!-- Headline
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <section id="weaver">
-            <div class="headline-image-container">
-                <a href="#breaker-row"><div id="s-1" style="background: url(images/hd-weaver.jpg)" class="swiper-slide"></div></a>
-            </div>
+    <section id="headline">
+        <div class="headline-container">
             <div class="container">
-                <div id="headline">
-                    <div class="ref-title-container"><a class="ref-title" href="index.html#designs">Designs</a></div>
-                    <div class="headline-container"><h5>The Weaver Credenza</h5></div>
-                </div>
-                <div class="row" id="intro-row">
-                    <div class="two columns" id="spec"><h6> </h6></div>
-                    <div class="eight columns" id="intro">
-                        <div class="intro-container"><p>A practical and classically styled storage solution for audio and electronic equipment, the Weaver Credenza is handcrafted from solid hardwood and integrated aluminum sliders.</p></div>
-                    </div>
-                    <div class="two columns" id="spacer"><h1> </h1></div>
-                </div>
-                <div class="row" id="breaker-row">
-                    <div class="twelve columns" id="breaker">
-                        <div class="index-item-image"><img src="images/br-weaver.jpg"></div>
-                    </div>
-                </div>
-                <div class="row" id="cont-row">
-                    <div class="two columns" id="spec"><h6> </h6></div>
-                    <div class="eight columns" id="cont">
-                        <div class="intro-container"><p>The perforated sliders allow for full remote transmission to equipment even when closed. All internal shelves are fully adjustable and 54mm diameter holes internally allow for easy interconnection of electronic equipment.</p></div>
-                    </div>
-                    <div class="two columns" id="spacer"><h1> </h1></div>
-                </div>
-                <div class="row" id="details-row">
-                    <div class="one-half column" id="index-item-half-container">
-                        <div class="index-item-image"><img src="images/dt-weaver-l.jpg"></div>
-                    </div>
-                    <div class="one-half column" id="index-item-half-container">
-                        <div class="index-item-image"><img src="images/dt-weaver-r.jpg"></div>
+                <div class="row">
+                    <div class="" id="headline-title-container">
+                        <h1 class="headline-title">The Weaver Credenza</h1>
+                        <h2>A practical and classically styled storage solution for audio and electronic equipment, the Weaver Credenza is handcrafted from solid hardwood with integrated aluminum sliders.</h2>
+                        <div id="headline-nav">
+                        <ul class="navbar-list" id="headline-nav-container">
+                            <li class="navbar-item"><a class="navbar-link" href="#swiper">Gallery</a></li>
+                            <li class="navbar-item"><a class="navbar-link" href="#details">Details</a></li>
+                            <li class="navbar-item"><a class="navbar-link" href="#">Enquire</a></li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="headline-colour-overlay"></div>
+            <div class="headline-background-image" id="weaver"></div>
+        </div>
+
+        <!--
+        <div class="container">
+            <div class="row" id="intro-row">
+                <div class="eight columns" id="intro">
+                    <div class="intro-container"><p>A practical and classically styled storage solution for audio and electronic equipment, the Weaver Credenza is handcrafted from solid hardwood and integrated aluminum sliders.</p></div>
+                </div>
+            </div>
+        </div>
+        -->
         
-        
+    </section>
+
+  
   <!-- Swiper
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div id=gallery>
+    <section id="swiper">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div id="s-1" style="background: url(images/sl-weaver-det.jpg)" class="swiper-slide"></div>
@@ -123,12 +120,13 @@
             <div class="swiper-button-next swiper-button-white"></div>
             <div class="swiper-button-prev swiper-button-white"></div>
         </div>
-    </div>
-
     </section>
-    
-    <section id="custom">
-            <div id="custom-background">
+
+
+  <!-- Details
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <section id="details">
+            <div class="details-container">
                 <div class="container">
                     <div class="row" id="title-row">
                         <div class="ten columns" id="title">
@@ -187,22 +185,21 @@ Lead time 4 to 5 weeks.</p>
     
     
   <!-- Swiper Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.jquery.min.js"></script>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+
     <script>        
         var mySwiper = new Swiper ('.swiper-container', {
-        // Optional parameters
         direction: 'horizontal',
         loop: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        keyboardControl: true
-        })        
+        keyboardControl: true,
+        autoplay: 7500,
+        speed: 550
+        })
     </script>
-    
     
     <!-- Smooth Scroll Script
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
