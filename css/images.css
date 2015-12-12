@@ -1,0 +1,19 @@
+/* Headline Background Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#weaver {
+    background: url(/images/hd-weaver.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/* Headline Background Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#weaver-s1 {
+    background: url(/images/sl-weaver-det.jpg);
+}
+
+#weaver-s2 {
+    background: url(/images/sl-weaver.jpg);
+}

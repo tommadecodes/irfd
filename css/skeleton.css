@@ -10,12 +10,6 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
-- Header
-- Nav
-- Social
-- Swiper
-- Index
-- Footer
 - Grid
 - Base Styles
 - Typography
@@ -30,159 +24,6 @@
 - Clearing
 - Media Queries
 */
-
-
-/* Headline
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.ref-title-container {
-    display: block;
-    padding-top: 22px;
-}
-
-.ref-title {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    vertical-align: middle;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 0.035em;
-    line-height: 0;
-    opacity: 0.1;
-}
-
-
-/* Title
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#title {
-    padding-top: 35px;
-    height: 90px;
-}
-
-#title-container {
-    display: inline-block;
-}
-
-
-/* Swiper
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#swiper {
-    margin-top: 0px;
-    z-index: 0;
-}
-
-.swiper-button-container {
-    display: block;
-    position: absolute;
-    bottom: 50%;
-    left: 0;
-    right: 0;
-    margin-bottom: -44px;
-    z-index: 2;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    width: 50px!important;
-}
-
-.swiper-container {
-    width: 100vw;
-    height: 120vh;
-}
-
-.swiper-slide {
-    display: block;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    -webkit-background-size: cover!important;
-    -moz-background-size: cover!important;
-    -o-background-size: cover!important;
-    background-size: cover!important;
-    background-position: 50%!important;
-    background-repeat: no-repeat!important;
-    z-index: 1;
-}
-
-
-/* Swiper Feature
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.ft-swiper-button-container {
-    display: block;
-    position: relative;
-    bottom: 50%;
-    left: 0;
-    right: 0;
-    margin-bottom: -44px;
-    z-index: 2;
-}
-
-.swiper-button-next, .swiper-button-prev {
-    width: 50px!important;
-}
-
-.ft-swiper-container {
-    width: 100%;
-    height: 100vh;
-}
-
-
-/* Index
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#index-background {
-    display: block;
-    position: absolute;
-    width: 100%;
-    background-color: #101111;
-    z-index: 10;
-}
-
-.index-title-container {
-    display: block;
-    margin-top: 52px;
-}
-
-.index-title {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    padding-right: 25px;
-    vertical-align: middle;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 0.035em;
-    line-height: 0;
-    opacity: 0.1;
-}
-
-#index-row-1 {
-    padding-top: 15px;
-}
-
-#index-item-half-container {
-    margin-bottom: 15px;
-}
-
-.index-item-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.index-item-title {
-    display: block;
-    padding-top: 15px;
-    text-decoration: none;
-}
 
 
 /* Grid
@@ -314,9 +155,14 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h6 { font-size: 1.5rem; }
 }
 
-p, h2, h4 {
+h2, h4 {
     font-family: 'Roboto Slab';
     text-decoration: none;
+    font-weight: 300;
+}
+
+p, table {
+    font-size: 1.8rem;
     font-weight: 300;
 }
 
@@ -500,9 +346,9 @@ pre > code {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 th,
 td {
-  padding: 12px 15px;
+  padding: 18px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px solid #fff; opacity: 0.9; }
 th:first-child,
 td:first-child {
   padding-left: 0; }

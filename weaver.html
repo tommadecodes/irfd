@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/images.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -83,11 +84,11 @@
                         <h1 class="headline-title">The Weaver Credenza</h1>
                         <h2>A practical and classically styled storage solution for audio and electronic equipment, the Weaver Credenza is handcrafted from solid hardwood with integrated aluminum sliders.</h2>
                         <div id="headline-nav">
-                        <ul class="navbar-list" id="headline-nav-container">
-                            <li class="navbar-item"><a class="navbar-link" href="#swiper">Gallery</a></li>
-                            <li class="navbar-item"><a class="navbar-link" href="#details">Details</a></li>
-                            <li class="navbar-item"><a class="navbar-link" href="#">Enquire</a></li>
-                        </ul>
+                            <ul class="navbar-list" id="headline-nav-container">
+                                <li class="navbar-item"><a class="navbar-link" href="#swiper">Gallery</a></li>
+                                <li class="navbar-item"><a class="navbar-link" href="#details">Details</a></li>
+                                <li class="navbar-item"><a class="navbar-link" href="#">Enquire</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -95,17 +96,6 @@
             <div class="headline-colour-overlay"></div>
             <div class="headline-background-image" id="weaver"></div>
         </div>
-
-        <!--
-        <div class="container">
-            <div class="row" id="intro-row">
-                <div class="eight columns" id="intro">
-                    <div class="intro-container"><p>A practical and classically styled storage solution for audio and electronic equipment, the Weaver Credenza is handcrafted from solid hardwood and integrated aluminum sliders.</p></div>
-                </div>
-            </div>
-        </div>
-        -->
-        
     </section>
 
   
@@ -114,11 +104,13 @@
     <section id="swiper">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div id="s-1" style="background: url(images/sl-weaver-det.jpg)" class="swiper-slide"></div>
-                <div id="s-2" style="background: url(images/sl-weaver.jpg)" class="swiper-slide"></div>
+                <div id="weaver-s1" class="swiper-slide"></div>
+                <div id="weaver-s2" class="swiper-slide"></div>
             </div>
-            <div class="swiper-button-next swiper-button-white"></div>
-            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-container">
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+            </div>
         </div>
     </section>
 
@@ -126,44 +118,62 @@
   <!-- Details
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="details">
-            <div class="details-container">
-                <div class="container">
-                    <div class="row" id="title-row">
-                        <div class="ten columns" id="title">
-                            <div class="title-container"><h5>Customisation</h5></div>
+        <div class="details-container">
+            <div class="container">
+                <div class="row">
+                    <div class="" id="details-intro-container">
+                        <h2>The perforated sliders allow for full remote transmission to equipment even when closed. All internal shelves are fully adjustable and 54mm diameter holes internally allow for easy interconnection of electronic equipment.</h2>
+                    </div>
+                </div>
+                <div class="row" id="">
+                    <div class="ten columns" id="title">
+                        <div class="title-container"><h5>Customisation</h5></div>
+                    </div>
+                </div>
+                <div class="row" id="">
+                    <div class="one-half column" id="">
+                        <div class=""><p>Customise the credenza to suit your interior by picking the hardwood and selecting from the range of coloured powder coated sliders. Timber options include American Ash, Fijian Rimu and American Oak.<br><br>
+The Weaver Credenza is finished in a traditional hand-rubbed oil. Additional coloured sliders can be purchased for a cost of $141.00 per slider.<br><br>
+Lead time 4 to 5 weeks.</p>
                         </div>
                     </div>
-                    <div class="row" id="custom-row">
-                        <div class="one-third column" id="custom-1">
-                            <div class="intro-container"><p>Customise the credenza to suit your interior by picking the hardwood and selecting from the range of coloured powder coated sliders. The Weaver Credenza is finished in a traditional hand-rubbed oil.<br><br>Additional coloured sliders can be purchased for a cost of $141.00 per slider.<br><br>
-Lead time 4 to 5 weeks.</p>
-                            </div>
-                        </div>
-                        <div class="one-third column" id="custom-2">
-                            <div class="intro-container">
-                                <p>Small: 
-                                1,500 x 500H x 500D<br>
-                                American Ash, Fijian Rimu, American Oak<br>
-                                Weight 35kgs (2 sliders)
-                                <br>
-                                Medium:
-                                1,650 x 500H x 500D<br>
-                                American Ash, Fijian Rimu, American Oak<br>
-                                Weight 42kgs (3 sliders)
-                                <br>
-                                Large: 
-                                2,200 x 500H x 500D<br>
-                                American Ash, Fijian Rimu, American Oak<br>
-                                Weight 50kgs (3 sliders)</p>
-                            </div>
-                        </div>
-                        <div class="one-third column" id="custom-3">
-                            <div class="intro-container"><p> </p>
-                            </div>
+                    <div class="one-half column" id="">
+                        <div class="table-column">
+                            <table class="u-full-width">
+                              <thead>
+                                <tr>
+                                  <th>Size</th>
+                                  <th>Dimensions</th>
+                                  <th>Weight</th>
+                                  <th>Sliders</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Small</td>
+                                  <td>1,500 L x 500 H x 500 D</td>
+                                  <td>35kg</td>
+                                  <td>2</td>
+                                </tr>
+                                <tr>
+                                  <td>Medium</td>
+                                  <td>1,650 L x 500 H x 500 D</td>
+                                  <td>42kg</td>
+                                  <td>3</td>
+                                </tr>
+                                <tr>
+                                  <td>Large</td>
+                                  <td>2,200 L x 500 H x 500 D</td>
+                                  <td>50kg</td>
+                                  <td>3</td>
+                                </tr>
+                              </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     
     
@@ -173,7 +183,7 @@ Lead time 4 to 5 weeks.</p>
         <div id="footer-background">
             <div class="container">
                 <div class="row">
-                    <div class="one-half column" id="cred-spacer"></div>
+                    <div class="one-half column" id="enquire-container"><div class="enquire-button"><a class="navbar-link" href="#">Enquire</a></div></div>
                     <div class="one-half column" id="cred-container">
                         <a class="cred-button" href="/"><img id="cred-fsc" src="images/cred-fsc.png"></a>
                         <a class="cred-button" href="/"><img id="cred-nz" src="images/cred-nz.png"></a>
