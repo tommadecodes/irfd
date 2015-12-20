@@ -25,6 +25,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -89,32 +91,38 @@
             </div>
         </div>
     </div>
-    
-    
+
+
   <!-- Index
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="designs">
         <div id="index-background">
             <div class="container">
-                <div class="index-title-container"><a class="index-title" href="#designs">Designs</a></div>
+                <div class="index-title">Designs</div>
                 <div class="row" id="index-row-1">
                     <div class="one-half column" id="index-item-half-container">
                         <a class="index-item-image" href="weaver.html"><img src="images/in-weaver.jpg"></a>
                         <a class="index-item-title" href="weaver.html"><h5>Weaver Credenza</h5></a>
                     </div>
                     <div class="one-half column" id="index-item-half-container">
-                        <a class="index-item-image" href="#"><img src="images/in-klasp.jpg"></a>
-                        <a class="index-item-title" href="#"><h5>Klasp Daybed</h5></a>
+                        <a class="index-item-image" href="klasp.html"><img src="images/in-klasp.jpg"></a>
+                        <a class="index-item-title" href="klasp.html"><h5>Klasp Daybed</h5></a>
                     </div>
                 </div>
                 <div class="row" id="index-row-2">
                     <div class="one-half column" id="index-item-half-container">
-                        <a class="index-item-image" href="#"><img src="images/in-twig.jpg"></a>
-                        <a class="index-item-title" href="#"><h5>Just Twigged Cabinet</h5></a>
+                        <a class="index-item-image" href="twig.html"><img src="images/in-twig.jpg"></a>
+                        <a class="index-item-title" href="twig.html"><h5>Just Twigged Cabinet</h5></a>
                     </div>
                     <div class="one-half column" id="index-item-half-container">
-                        <a class="index-item-image" href="#"><img src="images/in-linnk.jpg"></a>
-                        <a class="index-item-title" href="#"><h5>Linnk Cabinet</h5></a>
+                        <a class="index-item-image" href="linnk.html"><img src="images/in-linnk.jpg"></a>
+                        <a class="index-item-title" href="linnk.html"><h5>Linnk Cabinet</h5></a>
+                    </div>
+                </div>
+                <div class="row" id="index-row-3">
+                    <div class="one-half column" id="index-item-half-container">
+                        <a class="index-item-image" href="catch.html"><img src="images/sl-catch.jpg"></a>
+                        <a class="index-item-title" href="catch.html"><h5>Catch Desk</h5></a>
                     </div>
                 </div>
             </div>
@@ -152,23 +160,21 @@
     
     
   <!-- Swiper Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.7/js/swiper.jquery.min.js"></script>
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+
     <script>        
         var mySwiper = new Swiper ('.swiper-container', {
-        // Optional parameters
         direction: 'horizontal',
         loop: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         keyboardControl: true,
-        autoplay: 5000
-        })        
+        autoplay: 7000,
+        speed: 700
+        })
     </script>
-    
     
     <!-- Smooth Scroll Script
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

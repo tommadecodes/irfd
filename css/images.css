@@ -1,0 +1,117 @@
+/* Headline Background Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#weaver {
+    background: url(/images/hd-weaver.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#klasp {
+    background: url(/images/sl-klasp2.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#linnk {
+    background: url(/images/sl-linnk7.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#catch {
+    background: url(/images/sl-catch1.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/* Design Slides
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+#weaver-s1 {
+    background: url(/images/sl-weaver-det.jpg);
+}
+
+#weaver-s2 {
+    background: url(/images/sl-weaver.jpg);
+}
+
+
+#klasp-s1 {
+    background: url(/images/sl-klasp.jpg);
+}
+
+#klasp-s2 {
+    background: url(/images/sl-klasp1.jpg);
+}
+
+#klasp-s3 {
+    background: url(/images/sl-klasp2.jpg);
+}
+
+#klasp-s4 {
+    background: url(/images/sl-klasp3.jpg);
+}
+
+#klasp-s5 {
+    background: url(/images/sl-klasp4.jpg);
+}
+
+#klasp-s6 {
+    background: url(/images/sl-klasp5.jpg);
+}
+
+#klasp-s7 {
+    background: url(/images/sl-klasp6.jpg);
+}
+
+
+#linnk-s1 {
+    background: url(/images/sl-linnk.jpg);
+}
+
+#linnk-s2 {
+    background: url(/images/sl-linnk2.jpg);
+}
+
+#linnk-s3 {
+    background: url(/images/sl-linnk3.jpg);
+}
+
+#linnk-s4 {
+    background: url(/images/sl-linnk4.jpg);
+}
+
+#linnk-s5 {
+    background: url(/images/sl-linnk5.jpg);
+}
+
+#linnk-s6 {
+    background: url(/images/sl-linnk6.jpg);
+}
+
+#linnk-s7 {
+    background: url(/images/sl-linnk7.jpg);
+}
+
+#linnk-s8 {
+    background: url(/images/sl-linnk8.jpg);
+}
+
+
+#catch-s1 {
+    background: url(/images/sl-catch.jpg);
+}
+
+#catch-s2 {
+    background: url(/images/sl-catch1.jpg);
+}
+
+#catch-s3 {
+    background: url(/images/sl-catch2.jpg);
+}
+
+#catch-s4 {
+    background: url(/images/sl-catch3.jpg);
+}
