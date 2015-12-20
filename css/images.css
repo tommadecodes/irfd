@@ -7,8 +7,15 @@
     filter: grayscale(1);
 }
 
-/* Headline Background Images
+#linnk {
+    background: url(/images/sl-linnk7.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+/* Design Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 #weaver-s1 {
     background: url(/images/sl-weaver-det.jpg);
@@ -16,4 +23,37 @@
 
 #weaver-s2 {
     background: url(/images/sl-weaver.jpg);
+}
+
+
+#linnk-s1 {
+    background: url(/images/sl-linnk.jpg);
+}
+
+#linnk-s2 {
+    background: url(/images/sl-linnk2.jpg);
+}
+
+#linnk-s3 {
+    background: url(/images/sl-linnk3.jpg);
+}
+
+#linnk-s4 {
+    background: url(/images/sl-linnk4.jpg);
+}
+
+#linnk-s5 {
+    background: url(/images/sl-linnk5.jpg);
+}
+
+#linnk-s6 {
+    background: url(/images/sl-linnk6.jpg);
+}
+
+#linnk-s7 {
+    background: url(/images/sl-linnk7.jpg);
+}
+
+#linnk-s8 {
+    background: url(/images/sl-linnk8.jpg);
 }

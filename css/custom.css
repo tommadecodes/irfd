@@ -108,27 +108,16 @@ header, #header-background {
     z-index: 10;
 }
 
-.index-title-container {
-    display: block;
-    margin-top: 52px;
-}
-
 .index-title {
+    padding-top: 60px;
+    padding-bottom: 30px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-top: 25px;
-    padding-bottom: 15px;
-    padding-right: 25px;
-    vertical-align: middle;
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 0.035em;
     line-height: 0;
     opacity: 0.1;
-}
-
-#index-row-1 {
-    padding-top: 15px;
 }
 
 #index-item-half-container {
@@ -188,12 +177,6 @@ header, #header-background {
     text-align: left;
     padding-top: 32px;
     height: 58px;
-}
-
-#headline-nav-container {
-    display: inline-block;
-    margin-left: auto!important;
-    margin-right: auto!important;
 }
 
 #headline-nav-container a {
