@@ -251,69 +251,69 @@
 }
 
 
-oscar-s1 {
+#oscar-s1 {
     background: url(/images/sl-oscar.jpg);
 }
 
-oscar-s2 {
+#oscar-s2 {
     background: url(/images/sl-oscar1.jpg);
 }
 
-oscar-s3 {
+#oscar-s3 {
     background: url(/images/sl-oscar2.jpg);
 }
 
 
-twig-s1 {
+#twig-s1 {
     background: url(/images/sl-twig.jpg);
 }
 
-twig-s2 {
+#twig-s2 {
     background: url(/images/sl-twig1.jpg);
 }
 
-twig-s3 {
+#twig-s3 {
     background: url(/images/sl-twig2.jpg);
 }
 
-twig-s4 {
+#twig-s4 {
     background: url(/images/sl-twig3.jpg);
 }
 
-twig-s5 {
+#twig-s5 {
     background: url(/images/sl-twig4.jpg);
 }
 
-twig-s6 {
+#twig-s6 {
     background: url(/images/sl-twig5.jpg);
 }
 
-twig-s7 {
+#twig-s7 {
     background: url(/images/sl-twig6.jpg);
 }
 
 
-walker-s1 {
+#walker-s1 {
     background: url(/images/sl-walker.jpg);
 }
 
-walker-s2 {
+#walker-s2 {
     background: url(/images/sl-walker1.jpg);
 }
 
-walker-s3 {
+#walker-s3 {
     background: url(/images/sl-walker2.jpg);
 }
 
 
-watson-s1 {
+#watson-s1 {
     background: url(/images/sl-watson.jpg);
 }
 
-watson-s2 {
+#watson-s2 {
     background: url(/images/sl-watson1.jpg);
 }
 
-watson-s3 {
+#watson-s3 {
     background: url(/images/sl-watson2.jpg);
 }
