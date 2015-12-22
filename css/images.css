@@ -55,14 +55,14 @@
     filter: grayscale(1);
 }
 
-#walkers {
-    background: url(/images/sl-walkers.jpg);
+#walker {
+    background: url(/images/sl-walker.jpg);
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
 
-#walkert {
-    background: url(/images/sl-walkert1.jpg);
+#watson {
+    background: url(/images/sl-watson1.jpg);
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
@@ -73,11 +73,27 @@
 
 
 #weaver-s1 {
-    background: url(/images/sl-weaver-det.jpg);
+    background: url(/images/sl-weaver.jpg);
 }
 
 #weaver-s2 {
-    background: url(/images/sl-weaver.jpg);
+    background: url(/images/sl-weaver1.jpg);
+}
+
+#weaver-s3 {
+    background: url(/images/sl-weaver2.jpg);
+}
+
+#weaver-s4 {
+    background: url(/images/sl-weaver3.jpg);
+}
+
+#weaver-s5 {
+    background: url(/images/sl-weaver4.jpg);
+}
+
+#weaver-s6 {
+    background: url(/images/sl-weaver5.jpg);
 }
 
 
@@ -157,4 +173,147 @@
 
 #catch-s4 {
     background: url(/images/sl-catch3.jpg);
+}
+
+#catch-s5 {
+    background: url(/images/sl-catch4.jpg);
+}
+
+
+#hb-s1 {
+    background: url(/images/sl-holmesb.jpg);
+}
+
+#hb-s2 {
+    background: url(/images/sl-holmesb1.jpg);
+}
+
+#hb-s3 {
+    background: url(/images/sl-holmesb2.jpg);
+}
+
+
+#ht-s1 {
+    background: url(/images/sl-holmest.jpg);
+}
+
+#ht-s2 {
+    background: url(/images/sl-holmest1.jpg);
+}
+
+#ht-s3 {
+    background: url(/images/sl-holmest2.jpg);
+}
+
+#ht-s4 {
+    background: url(/images/sl-holmest3.jpg);
+}
+
+#ht-s5 {
+    background: url(/images/sl-holmest4.jpg);
+}
+
+#ht-s6 {
+    background: url(/images/sl-holmest5.jpg);
+}
+
+#ht-s7 {
+    background: url(/images/sl-holmest6.jpg);
+}
+
+
+#moniker-s1 {
+    background: url(/images/sl-moniker.jpg);
+}
+
+#moniker-s2 {
+    background: url(/images/sl-moniker1.jpg);
+}
+
+#moniker-s3 {
+    background: url(/images/sl-moniker2.jpg);
+}
+
+#moniker-s4 {
+    background: url(/images/sl-moniker3.jpg);
+}
+
+#moniker-s5 {
+    background: url(/images/sl-moniker4.jpg);
+}
+
+#moniker-s6 {
+    background: url(/images/sl-moniker5.jpg);
+}
+
+#moniker-s7 {
+    background: url(/images/sl-moniker6.jpg);
+}
+
+
+oscar-s1 {
+    background: url(/images/sl-oscar.jpg);
+}
+
+oscar-s2 {
+    background: url(/images/sl-oscar1.jpg);
+}
+
+oscar-s3 {
+    background: url(/images/sl-oscar2.jpg);
+}
+
+
+twig-s1 {
+    background: url(/images/sl-twig.jpg);
+}
+
+twig-s2 {
+    background: url(/images/sl-twig1.jpg);
+}
+
+twig-s3 {
+    background: url(/images/sl-twig2.jpg);
+}
+
+twig-s4 {
+    background: url(/images/sl-twig3.jpg);
+}
+
+twig-s5 {
+    background: url(/images/sl-twig4.jpg);
+}
+
+twig-s6 {
+    background: url(/images/sl-twig5.jpg);
+}
+
+twig-s7 {
+    background: url(/images/sl-twig6.jpg);
+}
+
+
+walker-s1 {
+    background: url(/images/sl-walker.jpg);
+}
+
+walker-s2 {
+    background: url(/images/sl-walker1.jpg);
+}
+
+walker-s3 {
+    background: url(/images/sl-walker2.jpg);
+}
+
+
+watson-s1 {
+    background: url(/images/sl-watson.jpg);
+}
+
+watson-s2 {
+    background: url(/images/sl-watson1.jpg);
+}
+
+watson-s3 {
+    background: url(/images/sl-watson2.jpg);
 }
