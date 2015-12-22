@@ -13,6 +13,12 @@
     filter: grayscale(1);
 }
 
+#twig {
+    background: url(/images/sl-twig4.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
 #linnk {
     background: url(/images/sl-linnk7.jpg);
     -webkit-filter: grayscale(1);
@@ -24,6 +30,43 @@
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
+
+#hb {
+    background: url(/images/sl-holmesb2.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#ht {
+    background: url(/images/sl-holmest1.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#moniker {
+    background: url(/images/sl-moniker2.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#oscar {
+    background: url(/images/fs-oscar.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#walkers {
+    background: url(/images/sl-walkers.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#walkert {
+    background: url(/images/sl-walkert1.jpg);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
 
 /* Design Slides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
