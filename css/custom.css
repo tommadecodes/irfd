@@ -172,6 +172,15 @@ header, #header-background {
     opacity: 0.96;
 }
 
+.com-details-container {
+    padding-top: 90px;
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    overflow: scroll;
+    opacity: 0.96;
+}
+
 #headline-title-container {
     position: absolute;
     top: calc(90px + 90px);
@@ -221,6 +230,20 @@ header, #header-background {
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.con-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 .enquire-button {
     padding-top: 32px;
